@@ -9,7 +9,7 @@
             font-family: coddigo;
             src: url(assets/fontes/SFPRODISPLAYREGULAR.OTF);
         }
-        html, body, main{
+        html, body{
             width: 100%;
             height: 100%;
             padding: 0pX;
@@ -17,9 +17,17 @@
             border: 0px;
             color: #386277; 
         } 
+        main{
+            width: 100%;
+            height: 80%;
+            padding: 0pX;
+            margin: 0pX;
+            border: 0px;
+            color: #386277; 
+        } 
         header{
-            height: 3rem;
-            background: #74C561; 
+            height: 4%;
+            background: #386277;
         }
         .center-content{
             display: flex;
@@ -27,8 +35,9 @@
             justify-content: center;
         }
         article{
-            display: flex; 
-            width: 70%; 
+            display: flex;
+            height: 100%;
+            width: 70%;
         }
         .logo{
             width: 200px;
@@ -46,7 +55,7 @@
             font-family: coddigo;
         }
         .headline{
-            height: 20%;
+            height: 4%;
         }
         .d-inline{
             display: inline;
@@ -56,8 +65,8 @@
             color: #386277;  
         }
         footer{
-            height: 8rem;
-            background: #386277;
+            height: 12%;
+            background: #74C561;
         }
     </style>
 </head>
@@ -68,7 +77,7 @@
             <div class="box-logo center-content">
                 <p><img class="logo" src="assets/image/coddigo.svg" alt=""></p>
             </div>
-            <div  class="box-introdution">
+            <div  class="box-introdution center-content">
                 <p>Produtos digitais para profissionais de saúde </p> 
             </div>
         </article>
